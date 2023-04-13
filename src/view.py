@@ -13,6 +13,7 @@ def index():
     # return 'Hello World!'
     return render_template('index.html')
 
+
 # エントリーポイント
 if __name__ == '__main__':
     app.run()
